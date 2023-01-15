@@ -160,7 +160,7 @@ nav li a {
     width: 70%;
     padding-top: 110px;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 
 }
 
@@ -204,7 +204,17 @@ nav li a {
 
 .architect-img img {
     width: 100%;
-    height: 100vh;
+    height: 800px;
+}
+.archtect-feature button{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-left: 50%;
 }
 
 /* Fact Section Start  */
@@ -363,6 +373,10 @@ nav li a {
         text-align: center;
         width: 100%;
         padding:10px 0px;
+    }
+    .archtect-feature button{
+        margin-left: 100px;
+
     }
    
 }
