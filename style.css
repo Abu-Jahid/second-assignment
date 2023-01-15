@@ -1,0 +1,368 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* variables declaration */
+:root {
+    --black: #131313;
+    --orange: #FF900E;
+    --dark-gray: #727272;
+}
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section start */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 20px;
+    padding-bottom: 10vh;
+}
+
+.header h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+/* Header section end */
+
+/* Banner section Start */
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background: rgba(255, 144, 14, 0.1);
+
+
+}
+
+.banner-section h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: var(--black)
+}
+
+.banner-section p {
+    text-align: center;
+    color: #727272;
+
+}
+
+.banner-section button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.banner-section img {
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+/* banner section end */
+
+/* team section start */
+.team-section {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    padding-top: 10vh;
+    padding-left: 100px;
+
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.team-image img {
+    width: 100%;
+    border: 8px solid rgba(255, 143, 14, 0.063);
+
+}
+
+.team-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.team-description h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-gray);
+}
+
+.team-description h3 #team-color1 {
+    color: var(--black);
+    font-weight: 700px;
+}
+
+.team-description h3 #team-color2 {
+    color: var(--orange);
+
+}
+
+.team-description p {
+    columns: var(--dark-gray);
+    width: 70%;
+
+}
+
+.team-description button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+/* team section end */
+
+/* architect section start */
+.architect-section {
+    display: flex;
+    gap: 30px;
+    width: 70%;
+    padding-top: 110px;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+
+.architect {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.architect-heading h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+    border-left: 4px solid var(--orange);
+    margin-bottom: 10px;
+}
+
+.architect-heading p {
+    color: var(--dark-gray);
+}
+
+.feature {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 20px 15px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--black);
+    padding-bottom: 10px;
+
+}
+
+.feature-description {
+    color: var(--dark-gray);
+}
+
+.architect-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Fact Section Start  */
+.fact-section {
+    margin-bottom: 40px;
+}
+
+.fact-heading {
+    padding-left: 200px;
+}
+
+.fact-heading h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+}
+
+.fact-heading p {
+    width: 50%;
+    color: var(--dark-gray);
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.fact-progres {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+
+}
+
+.fact-progres div {
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+/* Sponsor section start  */
+.sponsor-section {
+    margin: 80px 0px;
+}
+
+.sponsor-heading {
+    text-align: center;
+}
+
+.sponsor-heading h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+}
+
+.sponsor-heading p {
+    color: var(--dark-gray);
+    margin: 20px 0px;
+}
+
+.sponsor-image {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+    margin-bottom: 100px;
+}
+
+.sponsor-image img {
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+}
+
+/* Footer section start  */
+.footer {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #424242;
+    background: rgba(255, 143, 14, 0.318);
+    padding: 20px 80px;
+
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .banner-section img {
+        width: 80%;
+        padding-bottom: 40px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .team-section {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .team-description {
+        align-items: center;
+        text-align: center;
+    }
+
+    .team-image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .architect-section {
+        /* display: flex;
+        gap: 30px;
+        
+        padding-top: 110px;
+        margin: auto;
+        padding-bottom: 100px; */
+        width: 80%;
+        flex-direction: column;
+    }
+    .architect{
+        width: 100%;
+    }
+    .architect-heading h3{
+        text-align: center;
+    }
+    .fact-heading {
+        padding-left: 20px;
+        text-align: center;
+    }
+    .fact-heading p{
+        width: 90%;
+    }
+    .fact-progres{
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 100px;
+
+    }
+    .fact-progres div{
+        width: 100%;
+    }
+    .sponsor-section{
+        margin-bottom: 30px;
+    }
+    .sponsor-image{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+        margin-bottom: 10px;
+    }
+    .footer{
+        text-align: center;
+        width: 100%;
+        padding:10px 0px;
+    }
+   
+}
