@@ -254,6 +254,13 @@ nav li a {
     justify-content: center;
     padding: 20px 40px;
 }
+.fact-progres div:hover{
+    background-color: aquamarine;
+    transform: translate(-2%, -2%);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.533);
+    border: none;
+    
+}
 
 /* Sponsor section start  */
 .sponsor-section {
@@ -358,7 +365,9 @@ nav li a {
     }
     .fact-progres div{
         width: 100%;
+
     }
+
     .sponsor-section{
         margin-bottom: 30px;
     }
